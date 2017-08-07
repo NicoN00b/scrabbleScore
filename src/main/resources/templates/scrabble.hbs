@@ -1,0 +1,20 @@
+{{#partial "title" }}
+  Scrabblllleelelelelele!
+{{/partial}}
+
+<!--form.hbs.-->
+{{#partial "content"}}
+
+<h1>Math Sucks! We'll calculate your Scrabble score for you!!!</h1>
+<form action='/score'>
+ <div class="form-group">
+   <label for="inputtedWord">Enter your word:</label>
+   <input id="inputtedWord" name="inputtedWord" class="form-control" type="text">
+ </div>
+
+ <button type="submit" class="btn">Give me my Score</button>
+</form>
+<!--form.hbs.-->
+{{/partial}}
+
+{{> layout.hbs}}

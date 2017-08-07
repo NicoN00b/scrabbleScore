@@ -1,0 +1,27 @@
+{{#block "header"}}
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>{{#block "title"}}Hello Friend!{{/block}}
+</title>
+   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+ </head>
+ <body>
+    <div class="jumbotron">
+      <img src="images/word.jpg" alt="scrabble board">
+    </div>
+{{/block}}
+
+   <!-- begin inner template-->
+   <div class="container">
+     {{#block "content"}}
+{{/block}}
+
+   </div>
+   <!-- end inner template-->
+{{#block "footer"}}
+
+ </body>
+</html>
+{{/block}}
